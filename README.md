@@ -8,7 +8,7 @@
 # GitHub Observability Demo
 
 Demo de observabilidad para métricas de **GitHub** usando **Prometheus + Grafana + github-exporter**.  
-Pensado para mostrar prácticas de **observabilidad** y **CI en GitHub Actions**, sin instalar nada en tu PC.
+Pensado para mostrar prácticas de **observabilidad** y **CI en GitHub Actions**, sin instalar nada en el PC.
 
 > Basado en trabajo de la comunidad (github-monitoring). Este fork se usa con fines educativos.
 
