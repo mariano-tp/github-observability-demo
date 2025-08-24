@@ -1,16 +1,22 @@
 name: compose-validate
+
 on:
+  workflow_dispatch:        # permite ejecutarlo a mano desde Actions
   push:
     branches: [ main ]
   pull_request:
+
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Mostrar versión de Docker/Compose
+
+      - name: Mostrar versiones
         run: |
           docker --version
           docker compose version
+
       - name: Validar docker-compose.yml
         run: docker compose -f docker-compose.yml config
+
