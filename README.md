@@ -39,8 +39,9 @@ docker compose up -d
 - Prometheus: `http://localhost:9090`
 
 ## Capturas
-**Dashboard**  
-![Dashboard](images/dashboard.png)
+**Dashboard (Grafana — últimas 3 h)**
+[![Dashboard](images/dashboard.png)](images/dashboard.png)  
+_URL local: http://localhost:3000 • Prometheus: http://localhost:9090_
 
 **Token de GitHub (PAT)**  
 ![PAT](images/github_token.png)
