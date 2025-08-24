@@ -1,6 +1,8 @@
 name: link-check
 on:
-  push: { branches: [ main ] }
+  workflow_dispatch:
+  push:
+    branches: [ main ]
   pull_request:
 jobs:
   check:
@@ -9,4 +11,4 @@ jobs:
       - uses: actions/checkout@v4
       - uses: lycheeverse/lychee-action@v1
         with:
-          args: --verbose --no-progress README.md
+          args: --no-progress --verbose --exclude "http://localhost" README.md
