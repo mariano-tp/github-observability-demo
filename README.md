@@ -1,8 +1,8 @@
-![Stars](https://img.shields.io/github/stars/mariano-tp/github-observability-demo?style=social)
-[![Release](https://img.shields.io/github/v/release/mariano-tp/github-observability-demo?display_name=tag)](https://github.com/mariano-tp/github-observability-demo/releases/latest)
-[![CI compose-validate](https://github.com/mariano-tp/github-observability-demo/actions/workflows/compose-validate.yml/badge.svg?branch=main)](https://github.com/mariano-tp/github-observability-demo/actions/workflows/compose-validate.yml)
-![Last commit](https://img.shields.io/github/last-commit/mariano-tp/github-observability-demo)
-![License](https://img.shields.io/github/license/mariano-tp/github-observability-demo)
+[![CI: compose-validate](https://github.com/mariano-tp/github-observability-demo/actions/workflows/compose-validate.yml/badge.svg?branch=main)](https://github.com/mariano-tp/github-observability-demo/actions/workflows/compose-validate.yml)
+[![release](https://img.shields.io/github/v/release/mariano-tp/github-observability-demo?display_name=tag&style=flat-square)](https://github.com/mariano-tp/github-observability-demo/releases)
+[![license: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
+[![last commit](https://img.shields.io/github/last-commit/mariano-tp/github-observability-demo?style=flat-square)](https://github.com/mariano-tp/github-observability-demo/commits/main)
+[![stars](https://img.shields.io/github/stars/mariano-tp/github-observability-demo?style=flat-square)](https://github.com/mariano-tp/github-observability-demo/stargazers)
 
 
 # GitHub Observability Demo
