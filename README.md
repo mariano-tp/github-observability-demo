@@ -1,4 +1,4 @@
-[![CI: compose-validate](https://github.com/mariano-tp/github-observability-demo/actions/workflows/compose-validate.yml/badge.svg?branch=main)](https://github.com/mariano-tp/github-observability-demo/actions/workflows/compose-validate.yml)
+[![CI: compose-validate](https://img.shields.io/github/actions/workflow/status/mariano-tp/github-observability-demo/compose-validate.yml?branch=main&label=compose-validate&style=flat-square)](https://github.com/mariano-tp/github-observability-demo/actions/workflows/compose-validate.yml)
 [![release](https://img.shields.io/github/v/release/mariano-tp/github-observability-demo?display_name=tag&style=flat-square)](https://github.com/mariano-tp/github-observability-demo/releases)
 [![license: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
 [![last commit](https://img.shields.io/github/last-commit/mariano-tp/github-observability-demo?style=flat-square)](https://github.com/mariano-tp/github-observability-demo/commits/main)
