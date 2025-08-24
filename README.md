@@ -1,4 +1,6 @@
 ![compose-validate](https://github.com/mariano-tp/github-observability-demo/actions/workflows/compose-validate.yml/badge.svg?branch=main)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Last commit](https://img.shields.io/github/last-commit/mariano-tp/github-observability-demo)
 
 # GitHub Observability Demo
 
