@@ -65,4 +65,4 @@ Este repositorio ejecuta automáticamente:
 ## Créditos
 - Stack original de la comunidad (github-monitoring) + ajustes de presentación y CI por @mariano-tp.
 
-Ver también: [Código de Conducta](./CODE_OF_CONDUCT.md)
+Ver también: [Código de Conducta](./CODE_OF_CONDUCT.md) · [Contribuir](./CONTRIBUTING.md) · [Seguridad](./SECURITY.md)
