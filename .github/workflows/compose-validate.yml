@@ -1,22 +1,35 @@
 name: compose-validate
-
 on:
-  workflow_dispatch:        # permite ejecutarlo a mano desde Actions
   push:
     branches: [ main ]
+    paths:
+      - 'docker-compose.yml'
+      - 'grafana/**'
+      - 'prometheus/**'
+      - '.github/workflows/compose-validate.yml'
   pull_request:
+    paths:
+      - 'docker-compose.yml'
+      - 'grafana/**'
+      - 'prometheus/**'
+      - '.github/workflows/compose-validate.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - name: Mostrar versiones
+      - name: Mostrar versión de Docker/Compose
         run: |
           docker --version
           docker compose version
-
       - name: Validar docker-compose.yml
         run: docker compose -f docker-compose.yml config
-
