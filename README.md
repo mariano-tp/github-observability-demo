@@ -1,6 +1,5 @@
 [![CI: compose-validate](https://img.shields.io/github/actions/workflow/status/mariano-tp/github-observability-demo/compose-validate.yml?branch=main&label=compose-validate&style=flat-square)](https://github.com/mariano-tp/github-observability-demo/actions/workflows/compose-validate.yml)
 [![CI: link-check](https://img.shields.io/github/actions/workflow/status/mariano-tp/github-observability-demo/link-check.yml?branch=main&label=link-check&style=flat-square)](https://github.com/mariano-tp/github-observability-demo/actions/workflows/link-check.yml)
-<br>
 [![release](https://img.shields.io/github/v/release/mariano-tp/github-observability-demo?display_name=tag&style=flat-square)](https://github.com/mariano-tp/github-observability-demo/releases)
 [![last commit](https://img.shields.io/github/last-commit/mariano-tp/github-observability-demo?style=flat-square)](https://github.com/mariano-tp/github-observability-demo/commits/main)
 [![license: MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)](./LICENSE)
