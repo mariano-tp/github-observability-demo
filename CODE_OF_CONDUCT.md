@@ -1,43 +1,38 @@
 # Código de Conducta
 
-Este proyecto busca un ambiente abierto y acogedor. Esperamos respeto y colaboración entre todas las personas que participen (issues, PRs, discusiones, etc.).
+Este proyecto adopta el **Contributor Covenant v2.1** para promover un ambiente abierto y acogedor.
 
 ## Nuestro compromiso
-Nos comprometemos a que la participación sea libre de acoso para todas las personas, independientemente de edad, tamaño corporal, discapacidad, etnia, características sexuales, identidad y expresión de género, nivel de experiencia, educación, estatus socioeconómico, nacionalidad, apariencia física, raza, religión o identidad/experiencia sexual.
+Fomentar una comunidad libre de acoso para todas las personas, sin distinción de edad, apariencia, discapacidad, etnia,
+características sexuales, identidad o expresión de género, nivel de experiencia, nacionalidad, raza, religión o identidad/experiencia sexual.
 
 ## Nuestros estándares
-Ejemplos de comportamiento que contribuyen a un ambiente positivo:
-- Usar lenguaje inclusivo y respetuoso.
+Ejemplos de comportamiento que contribuyen a un entorno positivo:
+- Lenguaje inclusivo y respetuoso.
 - Aceptar críticas constructivas.
-- Enfocarse en lo que es mejor para la comunidad.
-- Mostrar empatía hacia otras personas.
+- Enfocarse en el bien de la comunidad.
+- Empatía hacia los demás.
 
-Ejemplos de comportamiento inaceptable:
-- Insultos, comentarios despectivos o ataques personales.
-- Trolling o acoso público o privado.
+Comportamientos inaceptables:
+- Insultos, ataques personales o comentarios despectivos.
+- Trolling o acoso (público o privado).
 - Publicar información privada de terceros sin permiso.
-- Conducta que pudiera considerarse inapropiada profesionalmente.
+- Conducta inapropiada en entornos profesionales.
 
 ## Alcance
-Este Código aplica en todos los espacios del proyecto (issues, PRs, discusiones) y también cuando se representa al proyecto en espacios públicos.
+Este Código aplica en todos los espacios del proyecto (issues, PRs, discusiones) y cuando se representa al proyecto en otros espacios públicos.
 
-## Responsabilidades de cumplimiento
-Las personas mantenedoras (maintainers) pueden editar, eliminar o rechazar comentarios, commits, código, issues y otras contribuciones que no cumplan este Código, y aplicar medidas temporales o permanentes según la gravedad.
+## Cumplimiento
+Las personas mantenedoras pueden editar/eliminar contenidos o tomar medidas temporales o permanentes según la gravedad de las infracciones.
 
 ## Cómo reportar
-- **Público:** abrí un **Issue** y etiquetalo con `coc`.
-- **Privado (recomendado):** contactá al mantenedor por **LinkedIn** (agregaré enlace) o por el canal que aparezca en la sección “About” del repositorio.
+Contactá al mantenedor en **mtorres.dev@outlook.com**.  
+También podés abrir un **Issue** solicitando contacto privado si preferís no publicar detalles.
 
-Los reportes serán revisados con prontitud y confidencialidad cuando sea posible.
-
-## Guías de aplicación
-Las infracciones se evalúan caso por caso. Orientativamente:
-1. **Corrección:** Indicación privada o pública para detener la conducta.
-2. **Advertencia:** Aviso formal con expectativas claras.
-3. **Suspensión temporal:** Acceso limitado a la participación por un tiempo.
-4. **Exclusión permanente:** Remoción de la comunidad/proyecto.
+Los reportes serán tratados con prontitud y, cuando sea posible, confidencialidad.
 
 ## Atribución
-Este Código se adapta del **Contributor Covenant** v2.1.  
-Más información: https://www.contributor-covenant.org/version/2/1/code_of_conduct/
+Basado en el **Contributor Covenant v2.1**  
+Texto: https://www.contributor-covenant.org/version/2/1/code_of_conduct/  
+FAQ: https://www.contributor-covenant.org/faq
 
