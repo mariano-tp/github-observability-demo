@@ -1,14 +1,14 @@
 # Guía de Contribución
 
-Gracias por tu interés 🙌. Este repo muestra un stack de observabilidad (Prometheus + Grafana + exporter) y CI en GitHub Actions.
+Gracias por tu interés 🙌. Este repo está pensado para ser simple y reproducible.
 
 ## Flujo de trabajo
-1. **Abrí un issue** usando la plantilla (Mejora de dashboard / Bug).
+1. **Abrí un issue** usando la plantilla (Bug / Mejora), si aplica.
 2. **Creá una rama** desde `main`:
    - `feat/<breve-descripcion>` para nuevas features
    - `fix/<breve-descripcion>` para bugs
    - `docs/...`, `ci/...` para documentación o pipelines
-3. **Commits** con prefijo estilo *Conventional Commits*:
+3. **Commits** estilo *Conventional Commits*:
    - `feat:`, `fix:`, `docs:`, `ci:`, `chore:`
 4. **Pull Request**:
    - Un solo tema por PR
@@ -16,20 +16,15 @@ Gracias por tu interés 🙌. Este repo muestra un stack de observabilidad (Prom
    - Pasar todos los checks de CI
    - Actualizar README/capturas si aplica
 
-## Checks de CI
-- `compose-validate`: valida `docker-compose.yml`
-- *(Opcional si lo ves en Actions)* `link-check`: revisa links del README
+## Estilo / calidad
+- Markdown simple y claro (español).
+- Evitar archivos grandes en el repo (usar `/images` para capturas).
+- Mantener consistencia de badges y secciones (README).
 
-## Reporte de bugs
-Incluí:
-- Pasos para reproducir
-- Resultado esperado vs. actual
-- Logs o capturas (si aplica)
-
-## Estilo
-- Markdown simple y claro (español)
-- Archivos en `images/` para capturas
-- Nombres de ramas en minúsculas y con guiones
+## CI
+Los PRs deben quedar en **verde**:
+- Linter / tests del proyecto (según repo).
+- Validaciones (p.ej. `docker compose config`, `terraform fmt/validate`, `helm lint`, `pytest`, etc).
 
 ## Licencia
 Al contribuir aceptás que tu aporte se publica bajo **MIT** (ver `LICENSE`).
