@@ -63,6 +63,7 @@ Este repositorio ejecuta automáticamente:
 - `docker compose -f docker-compose.yml config` → valida sintaxis y referencias.
 
 ## Créditos
-- Stack original de la comunidad (github-monitoring) + ajustes de presentación y CI por @mariano-tp.
+
+Stack original de la comunidad (github-monitoring) + ajustes de presentación y CI por @mariano-tp.
 
 Ver también: [Código de Conducta](./CODE_OF_CONDUCT.md) · [Contribuir](./CONTRIBUTING.md) · [Seguridad](./SECURITY.md)
