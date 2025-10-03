@@ -6,64 +6,62 @@
 [![stars](https://img.shields.io/github/stars/mariano-tp/github-observability-demo?style=flat-square)](https://github.com/mariano-tp/github-observability-demo/stargazers)
 
 
-
 # GitHub Observability Demo
 
-Demo de observabilidad para métricas de **GitHub** usando **Prometheus + Grafana + github-exporter**.  
-Pensado para mostrar prácticas de **observabilidad** y **CI en GitHub Actions**, sin instalar nada en el PC.
+Observability demo for **GitHub metrics** using **Prometheus + Grafana + github-exporter**.  
+Designed to showcase **observability practices** and **CI in GitHub Actions**, without needing to install anything locally.
 
-> Basado en trabajo de la comunidad (github-monitoring). Este fork se usa con fines educativos.
+> Based on community work (github-monitoring). This fork is used for educational purposes.
 
-## ¿Qué incluye?
-- **Prometheus** scrapea métricas del exporter de GitHub.
-- **Grafana** con dashboard de estadísticas (stars, forks, issues) de repos de ejemplo.
-- **CI**: workflow `compose-validate` que valida `docker-compose.yml` en cada push/PR.
+## What’s included?
+- **Prometheus** scrapes metrics from the GitHub exporter.
+- **Grafana** with a dashboard for statistics (stars, forks, issues) of sample repos.
+- **CI**: workflow `compose-validate` validates `docker-compose.yml` on each push/PR.
 
-## Estructura
+## Structure
 ```
 .
-├─ grafana/          # dashboards y provisión
-├─ prometheus/       # configuración de Prometheus
-├─ images/           # capturas usadas en este README
+├─ grafana/          # dashboards and provisioning
+├─ prometheus/       # Prometheus configuration
+├─ images/           # screenshots used in this README
 ├─ docker-compose.yml
-└─ config.monitoring # variables de ejemplo (REPOS, etc.)
+└─ config.monitoring # example variables (REPOS, etc.)
 ```
 
-## Cómo corre (opcional)
-No es necesario para revisar el código ni el CI.  
-Si alguien quiere ejecutarlo localmente con Docker Compose:
+## How it runs (optional)
+Running locally is not required to review the code or CI.  
+If someone wants to execute it locally with Docker Compose:
 
-1. Crear un **Personal Access Token** de GitHub (PAT) con alcance `public_repo` (o `repo` si hay privados).
-2. Definir variables:
-   - `REPOS` (coma-separado, p. ej. `freeCodeCamp/freeCodeCamp,docker/docker`)
-   - `GITHUB_TOKEN` (tu PAT)
-3. Levantar:
+1. Create a **GitHub Personal Access Token** (PAT) with `public_repo` scope (or `repo` if private).
+2. Define environment variables:
+   - `REPOS` (comma-separated, e.g. `freeCodeCamp/freeCodeCamp,docker/docker`)
+   - `GITHUB_TOKEN` (your PAT)
+3. Launch:
 ```bash
 docker compose up -d
 ```
 
-- Grafana: `http://localhost:3000` (usuario `admin`, contraseña definida en `config.monitoring`)  
+- Grafana: `http://localhost:3000` (user `admin`, password defined in `config.monitoring`)  
 - Prometheus: `http://localhost:9090`
 
-## Capturas
+## Screenshots
 **Dashboard**  
 ![Dashboard](images/dashboard.png)
 
-**Token de GitHub (PAT)**  
+**GitHub Token (PAT)**  
 ![PAT](images/github_token.png)
 
-**Datasource en Grafana**  
+**Datasource in Grafana**  
 ![Datasource](images/Grafana_Add_Data_Source.png)
 
-**Importar dashboard**  
+**Import dashboard**  
 ![Import](images/Import_Dashboard.png)
 
 ## CI (GitHub Actions)
-Este repositorio ejecuta automáticamente:
-- `docker compose -f docker-compose.yml config` → valida sintaxis y referencias.
+This repository automatically runs:
+- `docker compose -f docker-compose.yml config` → validates syntax and references.
 
-## Créditos
+## Credits
+Original stack from the community (github-monitoring) + presentation and CI adjustments by @mariano-tp.
 
-Stack original de la comunidad (github-monitoring) + ajustes de presentación y CI por @mariano-tp.
-
-Ver también: [Código de Conducta](./CODE_OF_CONDUCT.md) · [Contribuir](./CONTRIBUTING.md) · [Seguridad](./SECURITY.md)
+See also: [Code of Conduct](./CODE_OF_CONDUCT.md) · [Contributing](./CONTRIBUTING.md) · [Security](./SECURITY.md)
