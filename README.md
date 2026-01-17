@@ -53,16 +53,16 @@ Grafana: http://localhost:3000 (user admin, password defined in config.monitorin
 Prometheus: http://localhost:9090
 
 ## Screenshots
-Dashboard
+Dashboard  
 ![Dashboard](images/dashboard.png)
 
-GitHub Token (PAT)
+GitHub Token (PAT)  
 ![PAT](images/github_token.png)
 
-Datasource in Grafana
+Datasource in Grafana  
 ![Datasource](images/Grafana_Add_Data_Source.png)
 
-Import dashboard
+Import dashboard  
 ![Import](images/Import_Dashboard.png)
 
 ## Credits
